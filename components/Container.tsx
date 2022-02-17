@@ -23,34 +23,6 @@ const Container: FC<Props> = ({ children, url }) => {
                         <div className="h-2.5 w-2.5 rounded-full bg-[#EC6A5F]"></div>
                         <div className="ml-1.5 h-2.5 w-2.5 rounded-full bg-[#F4BF50]"></div>
                         <div className="ml-1.5 h-2.5 w-2.5 rounded-full bg-[#61C454]"></div>
-                        <svg
-                          width="24"
-                          height="24"
-                          fill="none"
-                          className="ml-4 flex-none text-slate-400 dark:text-slate-500"
-                        >
-                          <path
-                            d="m15 7-5 5 5 5"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
-                        <svg
-                          width="24"
-                          height="24"
-                          fill="none"
-                          className="ml-2 flex-none text-slate-400 dark:text-slate-500"
-                        >
-                          <path
-                            d="m10 7 5 5-5 5"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
                       </div>
                       <div>
                         <div className="mx-auto flex w-4/5 items-center justify-center rounded-md bg-slate-100 py-1 text-sm font-medium leading-6 ring-1 ring-inset ring-slate-900/5 dark:bg-slate-800 dark:text-slate-500">

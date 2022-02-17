@@ -85,7 +85,7 @@ const data = [
     type: "Android-Kotlin",
     author: "Android-Kotlin",
     keywords: ["Android Jetpack", "Material Design", "MVVM"],
-    url: "github.com/timtbdev/Portfolio-App-2",
+    url: "github.com/tim/Portfolio-App-2",
     features: [
       {
         description:
@@ -119,7 +119,7 @@ const data = [
     type: "Android-Java",
     author: "Android-Java",
     keywords: ["Android SDK", "Material Design", "MVC"],
-    url: "github.com/timtbdev/Portfolio-App-1",
+    url: "github.com/tim/Portfolio-App-1",
     features: [
       {
         description:
