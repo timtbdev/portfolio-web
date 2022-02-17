@@ -68,10 +68,7 @@ export default function Home({
 
       {data.map((project, idx) => (
         <Container url={project.url}>
-          <Body
-            item={project}
-            index={idx}
-          />
+          <Body item={project} index={idx} />
         </Container>
       ))}
     </div>
@@ -88,7 +85,7 @@ const data = [
     type: "Android-Kotlin",
     author: "Android-Kotlin",
     keywords: ["Android Jetpack", "Material Design", "MVVM"],
-    url: "https://github.com/timtbdev/Portfolio-App-2",
+    url: "github.com/timtbdev/Portfolio-App-2",
     features: [
       {
         description:
@@ -122,7 +119,7 @@ const data = [
     type: "Android-Java",
     author: "Android-Java",
     keywords: ["Android SDK", "Material Design", "MVC"],
-    url: "https://github.com/timtbdev/Portfolio-App-1",
+    url: "github.com/timtbdev/Portfolio-App-1",
     features: [
       {
         description:
