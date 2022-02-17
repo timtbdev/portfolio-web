@@ -2,7 +2,7 @@ const socials = [
   { title: "Email", url: "mailto:timtb@hey.com" },
   { title: "Github", url: "https://github.com/timtbdev" },
 ];
-const copyright = "2022 Tim, All rights reserved.";
+const copyright = "Last updated February 16, 2022.";
 
 export default function Footer() {
   return (
