@@ -1,17 +1,10 @@
-import { Disclosure, Menu, Popover, Transition } from "@headlessui/react";
+import { Popover, Transition } from "@headlessui/react";
 import DarkMode from "@components/DarkMode";
 import { useRouter } from "next/router";
 import classNames from "classnames";
 import Link from "next/link";
 import { useRef } from "react";
-import {
-  MenuIcon,
-  XIcon,
-  HomeIcon,
-  CollectionIcon as ProjectIcon,
-  MenuAlt2Icon as BlogIcon,
-  NewspaperIcon as ResumeIcon,
-} from "@heroicons/react/outline";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Fragment } from "react";
 
 const profile = {
@@ -27,7 +20,6 @@ const menu = [
     name: "Projects",
     href: "/",
     current: false,
-    icon: ProjectIcon,
   },
   // { index: 2, name: "Blog", href: "/blog", current: false, icon: BlogIcon },
 ];
@@ -80,12 +72,7 @@ export default function Navigation() {
                   <Link href={href}>
                     <a
                       key={index}
-                      className={classNames(
-                        pathname == href
-                          ? "text-sky-600 dark:text-sky-400"
-                          : "text-slate-700 hover:border-sky-600 hover:text-sky-600 dark:text-slate-200 dark:hover:border-sky-400 dark:hover:text-sky-400",
-                        "inline-flex items-center px-1 pt-1 text-base font-semibold transition duration-500 ease-in-out"
-                      )}
+                      className="inline-flex items-center px-1 pt-1 text-base font-semibold text-slate-700 transition duration-500 ease-in-out hover:border-sky-600 hover:text-sky-600 dark:text-slate-200 dark:hover:border-sky-400 dark:hover:text-sky-400"
                     >
                       {name}
                     </a>

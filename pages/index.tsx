@@ -2,9 +2,6 @@ import Profile from "@components/Profile";
 import Body from "@components/Project/Body";
 import Container from "@components/Container";
 import Head from "@components/Head";
-import Error from "next/error";
-import { useRouter } from "next/router";
-import getOgImage from "@libs/getOgImage";
 import { GetStaticPropsContext } from "next";
 
 interface Props {
@@ -33,9 +30,7 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   const image = baseUrl + "profile.jpg";
   const projects = data;
 
-  const ogImage = await getOgImage(
-    `/og?title=${title}&subtitle=${subtitle}&image=${image}&url=${baseUrl}`
-  );
+  const ogImage = baseUrl + "og.png";
   return {
     props: {
       pageTitle,
