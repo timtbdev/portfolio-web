@@ -24,12 +24,6 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   const date = "February, 2022";
   const baseUrl = "https://timtb.dev/";
 
-  //Open graph image
-  const title = "Oh hello there";
-  const subtitle = "Welcome to my portfolio";
-  const image = baseUrl + "profile.jpg";
-  const projects = data;
-
   const ogImage = baseUrl + "og.png";
   return {
     props: {

@@ -21,7 +21,7 @@ const menu = [
     href: "/",
     current: false,
   },
-  // { index: 2, name: "Blog", href: "/blog", current: false, icon: BlogIcon },
+  { index: 2, name: "Blog", href: "/blog", current: false },
 ];
 
 export default function Navigation() {
@@ -72,7 +72,12 @@ export default function Navigation() {
                   <Link href={href}>
                     <a
                       key={index}
-                      className="inline-flex items-center px-1 pt-1 text-base font-semibold text-slate-700 transition duration-500 ease-in-out hover:border-sky-600 hover:text-sky-600 dark:text-slate-200 dark:hover:border-sky-400 dark:hover:text-sky-400"
+                      className={classNames(
+                        pathname == href
+                          ? "text-sky-600 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-400"
+                          : "text-slate-700 hover:text-sky-600 dark:text-slate-200 dark:hover:text-sky-400",
+                        "inline-flex items-center px-1 pt-1 text-base font-semibold transition duration-500 ease-in-out"
+                      )}
                     >
                       {name}
                     </a>
