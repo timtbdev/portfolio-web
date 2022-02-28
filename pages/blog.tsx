@@ -1,9 +1,9 @@
 import Profile from "@components/Profile";
 import Body from "@components/Blog/Body";
 import Post from "@components/Blog/Post";
-import Container from "@components/Container";
 import Head from "@components/Head";
 import Header from "@components/Blog/Header";
+import Container from "@components/Blog/Container";
 import { GetStaticPropsContext } from "next";
 
 interface Props {
@@ -62,18 +62,18 @@ export default function Blog({
       />
 
       <Header />
-      <Body>
-        {data.map((post) => (
-          <>
+      {data.map((post) => (
+        <>
+          <Container url={post.title}>
             <Post
               title={post.title}
               date={post.date}
               slug={post.slug}
               text={post.text}
             />
-          </>
-        ))}
-      </Body>
+          </Container>
+        </>
+      ))}
     </div>
   );
 }

@@ -20,9 +20,9 @@ const Container: FC<Props> = ({ children, url }) => {
                   <div className="dark:highlight-white/10 bg-gradient-to-b from-white to-[#FBFBFB] dark:bg-slate-700 dark:bg-none sm:rounded-t-xl">
                     <div className="grid-template-columns: 7.125rem 1fr 7.125rem grid items-center py-2.5 px-4">
                       <div className="flex items-center">
-                        <div className="h-2.5 w-2.5 rounded-full bg-[#EC6A5F]"></div>
-                        <div className="ml-1.5 h-2.5 w-2.5 rounded-full bg-[#F4BF50]"></div>
-                        <div className="ml-1.5 h-2.5 w-2.5 rounded-full bg-[#61C454]"></div>
+                        <div className="h-1.5 w-1.5 rounded-full bg-[#EC6A5F] sm:h-2.5 sm:w-2.5"></div>
+                        <div className="ml-1.5 h-1.5 w-1.5 rounded-full bg-[#F4BF50] sm:h-2.5 sm:w-2.5"></div>
+                        <div className="ml-1.5 h-1.5 w-1.5 rounded-full bg-[#61C454] sm:h-2.5 sm:w-2.5"></div>
                       </div>
                       <div>
                         <div className="mx-auto flex w-4/5 items-center justify-center rounded-md bg-slate-100 py-1 text-sm font-medium leading-6 ring-1 ring-inset ring-slate-900/5 dark:bg-slate-800 dark:text-slate-500">
