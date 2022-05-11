@@ -4,19 +4,21 @@ exports.ids = [326];
 exports.modules = {
 
 /***/ 2326:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (/* binding */ DarkMode)
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7505);
-/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_headlessui_react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _headlessui_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1185);
 /* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1162);
 /* harmony import */ var next_themes__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_themes__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_headlessui_react__WEBPACK_IMPORTED_MODULE_1__]);
+_headlessui_react__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
 
 
 
@@ -24,8 +26,6 @@ exports.modules = {
 function DarkMode() {
     const { 0: toggle , 1: setToggle  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
     const { theme , setTheme  } = (0,next_themes__WEBPACK_IMPORTED_MODULE_2__.useTheme)();
-    // const [checked, setChecked] = useState(dark);
-    // const [mounted, setMounted] = useState(false);
     const handleOnClick = ()=>{
         if (localStorage.getItem("theme") === "dark") {
             setTheme("light");
@@ -48,15 +48,6 @@ function DarkMode() {
     }, [
         theme
     ]);
-    // // const handleChange = (nextChecked: boolean) => {
-    // //   setChecked(nextChecked);
-    // // };
-    // // // When mounted on client, now we can show the UI
-    // // useEffect(() => setMounted(true), []);
-    // // useEffect(() => {
-    // //   setTheme(checked ? "dark" : "light");
-    // // }, [checked, setTheme]);
-    // if (!mounted) return null;
     return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
         className: "relative col-start-1 col-end-4 row-start-1 row-end-2 mt-6 mb-3 px-4 pb-8 sm:px-6 md:px-8 lg:col-start-2 lg:col-end-4 lg:px-0 lg:pb-11 xl:col-end-3 xl:row-end-3 xl:pb-0",
         children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
@@ -162,6 +153,7 @@ function DarkMode() {
     }));
 };
 
+});
 
 /***/ })
 

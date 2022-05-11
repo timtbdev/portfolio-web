@@ -5,100 +5,75 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 4426:
+/***/ 2284:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ components_Container)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "react-icons/fa"
-const fa_namespaceObject = require("react-icons/fa");
-;// CONCATENATED MODULE: ./components/Container.tsx
-
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
 const Container = ({ children , url  })=>{
-    return(/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
             className: "relative mb-20 pt-10 xl:pt-0",
             children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "absolute inset-x-0 top-0 hidden h-[37.5rem] bg-gradient-to-b from-[#0c1120] dark:block xl:top-14"
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "gridlockup absolute inset-x-0 top-0 bg-top bg-no-repeat xl:top-14"
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "absolute inset-x-0 top-0 h-[37.5rem] bg-[url('/bg_light.svg')] bg-top [mask-image:linear-gradient(0deg,transparent,black)] dark:border-t dark:border-slate-100/5 dark:bg-[url('/bg_dark.svg')] dark:bg-[center_top_-1px] xl:top-14"
                 }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                     className: "mx-auto max-w-7xl sm:px-6 md:px-8",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                         className: "sm:px-2 xl:mt-0",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                             className: "relative",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                 className: "width: 1200px min-w-full max-w-full shadow-xl sm:rounded-xl",
-                                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                     className: "ring-1 ring-slate-900/5 sm:rounded-xl",
                                     children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "dark:highlight-white/10 bg-gradient-to-b from-white to-[#FBFBFB] dark:bg-slate-700 dark:bg-none sm:rounded-t-xl",
-                                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                 className: "grid-template-columns: 7.125rem 1fr 7.125rem grid items-center py-2.5 px-4",
                                                 children: [
-                                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                         className: "flex items-center",
                                                         children: [
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                className: "h-2.5 w-2.5 rounded-full bg-[#EC6A5F]"
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                className: "h-1.5 w-1.5 rounded-full bg-[#EC6A5F] sm:h-2.5 sm:w-2.5"
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                className: "ml-1.5 h-2.5 w-2.5 rounded-full bg-[#F4BF50]"
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                className: "ml-1.5 h-1.5 w-1.5 rounded-full bg-[#F4BF50] sm:h-2.5 sm:w-2.5"
                                                             }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                                className: "ml-1.5 h-2.5 w-2.5 rounded-full bg-[#61C454]"
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                                width: "24",
-                                                                height: "24",
-                                                                fill: "none",
-                                                                className: "ml-4 flex-none text-slate-400 dark:text-slate-500",
-                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                                    d: "m15 7-5 5 5 5",
-                                                                    stroke: "currentColor",
-                                                                    "stroke-width": "2",
-                                                                    "stroke-linecap": "round",
-                                                                    "stroke-linejoin": "round"
-                                                                })
-                                                            }),
-                                                            /*#__PURE__*/ jsx_runtime_.jsx("svg", {
-                                                                width: "24",
-                                                                height: "24",
-                                                                fill: "none",
-                                                                className: "ml-2 flex-none text-slate-400 dark:text-slate-500",
-                                                                children: /*#__PURE__*/ jsx_runtime_.jsx("path", {
-                                                                    d: "m10 7 5 5-5 5",
-                                                                    stroke: "currentColor",
-                                                                    "stroke-width": "2",
-                                                                    "stroke-linecap": "round",
-                                                                    "stroke-linejoin": "round"
-                                                                })
+                                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                                className: "ml-1.5 h-1.5 w-1.5 rounded-full bg-[#61C454] sm:h-2.5 sm:w-2.5"
                                                             })
                                                         ]
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                                                             className: "mx-auto flex w-4/5 items-center justify-center rounded-md bg-slate-100 py-1 text-sm font-medium leading-6 ring-1 ring-inset ring-slate-900/5 dark:bg-slate-800 dark:text-slate-500",
                                                             children: [
-                                                                /*#__PURE__*/ jsx_runtime_.jsx(fa_namespaceObject.FaGithub, {
-                                                                    className: "mr-1.5 h-4 w-4 text-slate-800 dark:text-slate-500"
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
+                                                                    className: "mr-1.5 h-4 w-4 text-slate-800 dark:text-slate-500",
+                                                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("svg", {
+                                                                        viewBox: "0 0 16 16",
+                                                                        fill: "currentColor",
+                                                                        "aria-hidden": "true",
+                                                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("path", {
+                                                                            d: "M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+                                                                        })
+                                                                    })
                                                                 }),
-                                                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                                                                     className: "text-slate-800 hover:border-sky-600 hover:text-sky-600 dark:text-slate-500 dark:hover:border-sky-400 dark:hover:text-sky-400",
                                                                     href: url,
                                                                     target: "_blank",
@@ -107,13 +82,13 @@ const Container = ({ children , url  })=>{
                                                             ]
                                                         })
                                                     }),
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                                         className: "mb-3 flex justify-end"
                                                     })
                                                 ]
                                             })
                                         }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
                                             className: "relative -mb-8 rounded-b-xl border-t border-slate-200 bg-white pb-8 dark:border-slate-900/50 dark:bg-slate-800",
                                             children: children
                                         })
@@ -127,226 +102,7 @@ const Container = ({ children , url  })=>{
         })
     }));
 };
-/* harmony default export */ const components_Container = (Container);
-
-
-/***/ }),
-
-/***/ 8142:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "Z": () => (/* binding */ components_Head)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-;// CONCATENATED MODULE: ./components/Head.tsx
-
-
-const Head = ({ title , description , keywords , author , date , url , image ,  })=>{
-    return(/*#__PURE__*/ jsx_runtime_.jsx(jsx_runtime_.Fragment, {
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    charSet: "UTF-8"
-                }, "charSet"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "viewport",
-                    content: "width=device-width, initial-scale=1"
-                }, "viewport"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    httpEquiv: "x-ua-compatible",
-                    content: "ie=edge"
-                }, "httpEquiv"),
-                title && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "title",
-                    content: title
-                }, "title"),
-                description && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "description",
-                    content: description
-                }, "description"),
-                keywords && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "keywords",
-                    content: keywords
-                }, "keywords"),
-                author && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "author",
-                    content: author
-                }, "author"),
-                date && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "article:published_time",
-                    content: date
-                }, "article:published_time"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:title",
-                    content: title
-                }, "og:title"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:description",
-                    content: description
-                }, "og:description"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:type",
-                    content: "website"
-                }, "og:type"),
-                url && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:url",
-                    content: url
-                }, "og:url"),
-                image && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:image",
-                    content: image
-                }, "og:image"),
-                image && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "image",
-                    content: image
-                }, "image"),
-                image && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:image:width",
-                    content: "1200"
-                }, "og:image:width"),
-                image && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    property: "og:image:height",
-                    content: "630"
-                }, "og:image:height"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "twitter:card",
-                    content: "summary_large_image"
-                }, "twitter:card"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "twitter:creator",
-                    content: "@timtbdev"
-                }, "twitter:creator"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "twitter:title",
-                    content: title ? `${title}` : "Tim | Android Developer"
-                }, "twitter:title"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "twitter:description",
-                    content: description
-                }, "twitter:description"),
-                image && /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "twitter:image",
-                    content: image
-                }, "twitter:image"),
-                url && /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "canonical",
-                    href: url
-                }, "canonical"),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "180x180",
-                    href: "/apple-touch-icon.png"
-                }, "apple-touch-icon"),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    type: "image/png",
-                    sizes: "32x32",
-                    href: "/favicon-32x32.png"
-                }, "icon32"),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    type: "image/png",
-                    sizes: "16x16",
-                    href: "/favicon-16x16.png"
-                }, "icon16"),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "mask-icon",
-                    href: "/safari-pinned-tab.svg",
-                    color: "#667eea"
-                }, "mask-icon"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "msapplication-TileColor",
-                    content: "#667eea"
-                }, "msapplication-TileColor"),
-                /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                    name: "theme-color",
-                    content: "#667eea"
-                }, "theme-color"),
-                /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                    children: title ? `${title}` : "Tim | Android Developer"
-                }, "pageTitle"),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "57x57",
-                    href: "/apple-icon-57x57.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "60x60",
-                    href: "/apple-icon-60x60.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "72x72",
-                    href: "/apple-icon-72x72.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "76x76",
-                    href: "/apple-icon-76x76.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "114x114",
-                    href: "/apple-icon-114x114.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "120x120",
-                    href: "/apple-icon-120x120.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "144x144",
-                    href: "/apple-icon-144x144.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "152x152",
-                    href: "/apple-icon-152x152.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "apple-touch-icon",
-                    sizes: "180x180",
-                    href: "/apple-icon-180x180.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    type: "image/png",
-                    sizes: "192x192",
-                    href: "/android-icon-192x192.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    type: "image/png",
-                    sizes: "32x32",
-                    href: "/favicon-32x32.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    type: "image/png",
-                    sizes: "96x96",
-                    href: "/favicon-96x96.png"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                    rel: "icon",
-                    type: "image/png",
-                    sizes: "16x16",
-                    href: "/favicon-16x16.png"
-                })
-            ]
-        })
-    }));
-};
-/* harmony default export */ const components_Head = (Head);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Container);
 
 
 /***/ }),
@@ -363,8 +119,8 @@ __webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
 /* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6197);
 /* harmony import */ var _libs_animation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1722);
 /* harmony import */ var _components_DarkMode__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2326);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
-framer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_DarkMode__WEBPACK_IMPORTED_MODULE_3__, framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
+([_components_DarkMode__WEBPACK_IMPORTED_MODULE_3__, framer_motion__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
 
 
 
@@ -995,313 +751,6 @@ const Slider = ({ images  })=>{
 
 /***/ }),
 
-/***/ 1722:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Tj": () => (/* binding */ fadeAnim),
-/* harmony export */   "hg": () => (/* binding */ listVariants),
-/* harmony export */   "Di": () => (/* binding */ itemVariants),
-/* harmony export */   "ST": () => (/* binding */ spring)
-/* harmony export */ });
-/* unused harmony exports flipAnim, swipeAnim, easing, slideInUp, delayedSlideInUp, slideInLeft, slideInRight */
-const fadeAnim = {
-    show: {
-        opacity: 1,
-        transition: {
-            duration: 0.2,
-            delay: 0.1,
-            ease: 'linear',
-            when: 'beforeChildren'
-        }
-    },
-    hide: {
-        opacity: 0,
-        transition: {
-            duration: 0.2,
-            ease: 'linear',
-            when: 'beforeChildren'
-        }
-    }
-};
-const flipAnim = {
-    show: {
-        y: [
-            '100%',
-            '0%'
-        ],
-        transition: {
-            duration: 1,
-            ease: [
-                0.16,
-                1,
-                0.3,
-                1
-            ],
-            when: 'beforeChildren'
-        }
-    },
-    hide: {
-        y: '-100%',
-        transition: {
-            duration: 1,
-            ease: [
-                0.16,
-                1,
-                0.3,
-                1
-            ],
-            when: 'afterChildren'
-        }
-    }
-};
-const swipeAnim = {
-    show: {
-        opacity: 1,
-        x: [
-            '-1rem',
-            '0rem'
-        ],
-        transition: {
-            x: {
-                duration: 0.8,
-                delay: 0.1,
-                ease: [
-                    0.16,
-                    1,
-                    0.3,
-                    1
-                ]
-            },
-            opacity: {
-                duration: 0.2,
-                delay: 0.1
-            }
-        }
-    },
-    hide: {
-        x: [
-            '0rem',
-            '1rem'
-        ],
-        opacity: 0,
-        transition: {
-            x: {
-                duration: 0.4,
-                ease: [
-                    0.16,
-                    1,
-                    0.3,
-                    1
-                ]
-            },
-            opacity: {
-                duration: 0.1
-            }
-        }
-    }
-};
-const easing = [
-    0.175,
-    0.85,
-    0.42,
-    0.96
-];
-const listVariants = {
-    initial: {
-        scale: 0.96,
-        y: 30,
-        opacity: 0
-    },
-    enter: {
-        scale: 1,
-        y: 0,
-        opacity: 1,
-        transition: {
-            duration: 0.5,
-            ease: [
-                0.48,
-                0.15,
-                0.25,
-                0.96
-            ],
-            staggerChildren: 0.1,
-            delayChildren: 0.2
-        }
-    },
-    exit: {
-        transition: {
-            staggerChildren: 0.1,
-            staggerDirection: -1
-        }
-    }
-};
-const itemVariants = {
-    initial: {
-        y: 50,
-        opacity: 0,
-        transition: {
-            y: {
-                stiffness: 1000
-            }
-        }
-    },
-    enter: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            y: {
-                stiffness: 1000,
-                velocity: -100
-            }
-        }
-    },
-    exit: {
-        y: 50,
-        opacity: 0,
-        transition: {
-            y: {
-                stiffness: 1000,
-                velocity: -100
-            }
-        }
-    }
-};
-const slideInUp = {
-    exit: {
-        y: 100,
-        opacity: 0,
-        transition: {
-            duration: 0.2,
-            ease: easing
-        }
-    },
-    enter: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            delay: 0.1,
-            duration: 0.5,
-            ease: easing
-        }
-    }
-};
-const delayedSlideInUp = {
-    exit: {
-        y: 100,
-        opacity: 0,
-        transition: {
-            duration: 0.2,
-            ease: easing
-        }
-    },
-    enter: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            delay: 0.2,
-            duration: 0.5,
-            ease: easing
-        }
-    }
-};
-const slideInLeft = {
-    exit: {
-        x: -100,
-        opacity: 0,
-        transition: {
-            duration: 0.4,
-            ease: easing
-        }
-    },
-    enter: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            delay: 0.1,
-            duration: 0.5,
-            ease: easing
-        }
-    }
-};
-const slideInRight = {
-    exit: {
-        x: 150,
-        opacity: 0,
-        transition: {
-            duration: 0.4,
-            ease: easing
-        }
-    },
-    enter: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            duration: 0.5,
-            ease: easing
-        }
-    }
-};
-const spring = {
-    type: 'spring',
-    stiffness: 500,
-    damping: 30
-};
-
-
-/***/ }),
-
-/***/ 1978:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-const playwright = __webpack_require__(3447);
-const { createHash  } = __webpack_require__(6113);
-const fs = __webpack_require__(7147);
-const isDev = "production" === 'development';
-async function getOgImage(path, baseUrl = 'https://timtb.dev') {
-    if (isDev) {
-        return 'og image will be generated in production';
-    }
-    const url = `${baseUrl}${path}`;
-    const hash = createHash('md5').update(url).digest('hex');
-    const browser = await playwright.launchChromium({
-        headless: true
-    });
-    const ogImageDir = `./public/images/og`;
-    const imagePath = `${ogImageDir}/${hash}.png`;
-    const publicPath = `${"https://timtb.dev/"}/images/og/${hash}.png`;
-    try {
-        fs.statSync(imagePath);
-        return publicPath;
-    } catch (error) {
-    // file does not exists, so we create it
-    }
-    const page = await browser.newPage();
-    await page.setViewportSize({
-        width: 1200,
-        height: 630
-    });
-    await page.goto(url, {
-        waitUntil: 'networkidle'
-    });
-    const buffer = await page.screenshot({
-        type: 'png'
-    });
-    await browser.close();
-    fs.mkdirSync(ogImageDir, {
-        recursive: true
-    });
-    fs.writeFileSync(imagePath, buffer);
-    return publicPath;
-}
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (getOgImage);
-
-
-/***/ }),
-
 /***/ 5075:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -1315,12 +764,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Profile__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2299);
 /* harmony import */ var _components_Project_Body__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(850);
-/* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4426);
-/* harmony import */ var _components_Head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8142);
-/* harmony import */ var _libs_getOgImage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(1978);
+/* harmony import */ var _components_Container__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2284);
+/* harmony import */ var _components_Head__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8066);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_components_Project_Body__WEBPACK_IMPORTED_MODULE_2__, _components_Profile__WEBPACK_IMPORTED_MODULE_1__]);
 ([_components_Project_Body__WEBPACK_IMPORTED_MODULE_2__, _components_Profile__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
-
 
 
 
@@ -1334,12 +781,7 @@ async function getStaticProps(context) {
     const author = "Tim";
     const date = "February, 2022";
     const baseUrl = "https://timtb.dev/";
-    //Open graph image
-    const title = "Oh hello there";
-    const subtitle = "Welcome to my portfolio";
-    const image = baseUrl + "profile.jpg";
-    const projects = data;
-    const ogImage = await (0,_libs_getOgImage__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z)(`/og?title=${title}&subtitle=${subtitle}&image=${image}&url=${baseUrl}`);
+    const ogImage = baseUrl + "og.png";
     return {
         props: {
             pageTitle,
@@ -1391,7 +833,7 @@ const data = [
             "Material Design",
             "MVVM"
         ],
-        url: "https://github.com/timtbdev/Portfolio-App-2",
+        url: "github.com/tim/Portfolio-App-2",
         features: [
             {
                 description: "Single Activity, Navigation, LiveData, ViewModel, DataBinding, Room, WorkManager, MotionLayout, Paging ",
@@ -1427,7 +869,7 @@ const data = [
             "Material Design",
             "MVC"
         ],
-        url: "https://github.com/timtbdev/Portfolio-App-1",
+        url: "github.com/tim/Portfolio-App-1",
         features: [
             {
                 description: "Multiple Activities, Fragment, AppCompat, RecyclerView,  ViewPager",
@@ -1453,13 +895,6 @@ const data = [
 ];
 
 });
-
-/***/ }),
-
-/***/ 7505:
-/***/ ((module) => {
-
-module.exports = require("@headlessui/react");
 
 /***/ }),
 
@@ -1498,10 +933,10 @@ module.exports = require("next/dist/shared/lib/to-base-64.js");
 
 /***/ }),
 
-/***/ 3447:
+/***/ 968:
 /***/ ((module) => {
 
-module.exports = require("playwright-aws-lambda");
+module.exports = require("next/head");
 
 /***/ }),
 
@@ -1519,24 +954,17 @@ module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
+/***/ 1185:
+/***/ ((module) => {
+
+module.exports = import("@headlessui/react");;
+
+/***/ }),
+
 /***/ 6197:
 /***/ ((module) => {
 
 module.exports = import("framer-motion");;
-
-/***/ }),
-
-/***/ 6113:
-/***/ ((module) => {
-
-module.exports = require("crypto");
-
-/***/ }),
-
-/***/ 7147:
-/***/ ((module) => {
-
-module.exports = require("fs");
 
 /***/ })
 
@@ -1547,7 +975,7 @@ module.exports = require("fs");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [190,675,326], () => (__webpack_exec__(5075)));
+var __webpack_exports__ = __webpack_require__.X(0, [190,675,326,962], () => (__webpack_exec__(5075)));
 module.exports = __webpack_exports__;
 
 })();
