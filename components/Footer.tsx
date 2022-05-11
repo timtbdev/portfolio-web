@@ -2,13 +2,13 @@ const socials = [
   { title: "Email", url: "mailto:timtb@hey.com" },
   { title: "Github", url: "https://github.com/timtbdev" },
 ];
-const copyright = "Last updated February 21, 2022";
+const copyright = "2022 Tim, All rights reserved.";
 
 export default function Footer() {
   return (
     <>
       <footer className="bg-gray-50 dark:bg-slate-900">
-        <div className="mx-auto max-w-full overflow-hidden border-t border-gray-200 py-12 px-4 dark:border-slate-200/5 sm:px-6 lg:px-8">
+        <div className="mx-auto mt-6 max-w-full overflow-hidden border-t border-gray-200 py-12 px-4 dark:border-slate-200/5 sm:px-6 lg:px-8">
           <nav
             className="-mx-5 -my-2 flex flex-wrap justify-center"
             aria-label="Footer"
@@ -26,7 +26,7 @@ export default function Footer() {
             ))}
           </nav>
           <p className="mt-8 text-center text-base font-light text-slate-500 dark:text-slate-400">
-            {copyright}
+            &copy; {copyright}
           </p>
         </div>
       </footer>

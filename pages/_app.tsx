@@ -2,8 +2,10 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { ThemeProvider } from "next-themes";
 import { AnimatePresence, motion } from "framer-motion";
+import { QueryClientProvider, QueryClient } from "react-query";
 import Layout from "@components/Layout";
 
+const queryClient = new QueryClient();
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   function handleScrollToTop() {
@@ -16,6 +18,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     <>
       <ThemeProvider attribute="class">
         <Layout>
+          <QueryClientProvider client={queryClient}>
             <AnimatePresence exitBeforeEnter onExitComplete={handleScrollToTop}>
               <motion.div
                 key={router.route}
@@ -31,6 +34,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
                 <Component {...pageProps} />
               </motion.div>
             </AnimatePresence>
+          </QueryClientProvider>
         </Layout>
       </ThemeProvider>
     </>

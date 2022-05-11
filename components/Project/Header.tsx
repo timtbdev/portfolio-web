@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { IButton as ButtonIF, IHighlight } from "../../types";
 import dateFormat from "date-fns/format";
 import Image from "next/image";
 import Link from "next/link";

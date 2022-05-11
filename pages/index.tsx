@@ -2,6 +2,9 @@ import Profile from "@components/Profile";
 import Body from "@components/Project/Body";
 import Container from "@components/Container";
 import Head from "@components/Head";
+import Error from "next/error";
+import { useRouter } from "next/router";
+import getOgImage from "@libs/getOgImage";
 import { GetStaticPropsContext } from "next";
 
 interface Props {
@@ -24,7 +27,15 @@ export async function getStaticProps(context: GetStaticPropsContext) {
   const date = "February, 2022";
   const baseUrl = "https://timtb.dev/";
 
-  const ogImage = baseUrl + "og.png";
+  //Open graph image
+  const title = "Oh hello there";
+  const subtitle = "Welcome to my portfolio";
+  const image = baseUrl + "profile.jpg";
+  const projects = data;
+
+  const ogImage = await getOgImage(
+    `/og?title=${title}&subtitle=${subtitle}&image=${image}&url=${baseUrl}`
+  );
   return {
     props: {
       pageTitle,
@@ -62,7 +73,10 @@ export default function Home({
 
       {data.map((project, idx) => (
         <Container url={project.url}>
-          <Body item={project} index={idx} />
+          <Body
+            item={project}
+            index={idx}
+          />
         </Container>
       ))}
     </div>
@@ -79,7 +93,7 @@ const data = [
     type: "Android-Kotlin",
     author: "Android-Kotlin",
     keywords: ["Android Jetpack", "Material Design", "MVVM"],
-    url: "github.com/tim/Portfolio-App-2",
+    url: "https://github.com/timtbdev/Portfolio-App-2",
     features: [
       {
         description:
@@ -113,7 +127,7 @@ const data = [
     type: "Android-Java",
     author: "Android-Java",
     keywords: ["Android SDK", "Material Design", "MVC"],
-    url: "github.com/tim/Portfolio-App-1",
+    url: "https://github.com/timtbdev/Portfolio-App-1",
     features: [
       {
         description:
